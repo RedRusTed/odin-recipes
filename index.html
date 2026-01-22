@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #first{
+        background-color: rgb(104, 240, 240);
+        height: auto;
+        width: 65px;
+        font-size: 22px;
+    }
+    #second{
+        background-color: gainsboro;
+        margin-top: -132px;
+        margin-left: 60px;
+        padding-left: 30px;
+        height: 102px;
+        width: 35px;
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin recipes</title>
 </head>
 <body>
-    <h1>&quot;Odin Recipes&quot;</h1>
-    <ol>
-    <li><a href="recipes/lasagna.html">Lasagna</a></li>
-    <li><a href="recipes/pizza.html">Pizza</a></li>
+    <div id="first">
+    <h1>Odin Recipes</h1>
+    </div>
+    <div id="second"></div>
+    <ol class="list">
+    <li id="li-first"><a href="recipes/lasagna.html">Lasagna</a></li>
+    <li id="li-second"><a href="recipes/pizza.html">Pizza</a></li>
     </ol>
 </body>
 </html>
